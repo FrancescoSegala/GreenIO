@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GreenIO</string>
+    <string name="app_bar_logout">Logout</string>
+    <string name="app_bar_new_env">Create new Env</string>
+    <string name="app_bar_change_env">Change Env</string>
+    <string name="app_bar_delete_env">Delete Env</string>
+</resources>
