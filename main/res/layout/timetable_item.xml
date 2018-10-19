@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/timetableItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="from:"/>
+
+    <TextView
+        android:id="@+id/hhmmDisplayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="hh:mm"/>
+
+
+
+    <CheckBox
+        android:id="@+id/airTimetableCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="air "
+        android:checked="true"
+        android:clickable="false"
+        android:layout_marginVertical="5dp"
+        />
+    <CheckBox
+        android:id="@+id/tempTimetableCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temp "
+        android:checked="true"
+        android:clickable="false"
+        android:layout_marginVertical="5dp"
+        />
+    <CheckBox
+        android:id="@+id/lightTimetableCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="light "
+        android:checked="true"
+        android:layout_marginVertical="5dp"
+        android:clickable="false"
+        />
+
+    <Button
+        android:id="@+id/deleteTimetableButton"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:onClick="deleteTimetableEntry"
+        android:background="@android:drawable/ic_delete" />
+
+
+
+</LinearLayout>
