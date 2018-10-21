@@ -4,7 +4,9 @@
     <string name="app_bar_new_env">Create new Env</string>
     <string name="app_bar_change_env">Change Env</string>
     <string name="app_bar_delete_env">Delete Env</string>
-    <string name="rails_host">http://172.31.99.184:3000</string>
+    <string name="app_bar_main_page">Home</string>
+    <string name="app_bar_credits">Credits</string>
+    <string name="rails_host">http://192.168.1.103:3000</string>
 
     <string-array name="types">
         <item>Air</item>

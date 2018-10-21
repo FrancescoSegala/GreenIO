@@ -220,19 +220,19 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <TextView
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="Temp"/>
-
+                    android:src="@drawable/ic_temperature"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginHorizontal="7dp"/>
                 <TextView
                     android:id="@+id/tempPercentageView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="%"
-                    android:layout_margin="10dp"
-                    />
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Temp %"/>
 
                 <ProgressBar
                     android:id="@+id/tempProgresBar"
@@ -251,19 +251,19 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <TextView
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="Air      "/>
-
+                    android:src="@drawable/ic_fan"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginHorizontal="7dp"/>
                 <TextView
                     android:id="@+id/airPercentageView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="%"
-                    android:layout_margin="10dp"
-                    />
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Air %"/>
 
                 <ProgressBar
                     android:id="@+id/airProgresBar"
@@ -271,6 +271,7 @@
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
                     android:max="100"
                     android:progress="1"/>
 
@@ -282,20 +283,19 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <TextView
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="Light  "/>
-
-
+                    android:src="@drawable/ic_bulb"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginHorizontal="7dp"/>
                 <TextView
                     android:id="@+id/lightPercentageView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="%"
-                    android:layout_margin="10dp"
-                    />
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Light %"/>
 
                 <ProgressBar
                     android:id="@+id/lightProgressBar"
@@ -303,6 +303,7 @@
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
                     android:max="100"
                     android:progress="1" />
 

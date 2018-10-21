@@ -25,6 +25,13 @@
 
     </item>
 
+    <item
+        android:id="@+id/app_bar_credits"
+        android:title="@string/app_bar_credits"
+        app:showAsAction="never">
+
+    </item>
+
     <item android:id="@+id/app_bar_logout"
         android:title="@string/app_bar_logout"
         app:showAsAction="never">

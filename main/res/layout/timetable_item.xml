@@ -56,9 +56,10 @@
         android:id="@+id/deleteTimetableButton"
         android:layout_width="40dp"
         android:layout_height="30dp"
-        android:layout_margin="5dp"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="7dp"
         android:onClick="deleteTimetableEntry"
-        android:background="@android:drawable/ic_delete" />
+        android:background="@drawable/ic_delete_forever_black_24dp" />
 
 
 

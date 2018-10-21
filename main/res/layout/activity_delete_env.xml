@@ -2,14 +2,15 @@
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:id="@+id/deleteEnvLinearLayout"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
 
     <include layout="@layout/app_bar"
-        android:id="@+id/deleteEnvAppBar"
-        ></include>
+        android:id="@+id/deleteEnvAppBar">
 
+    </include>
 
     <TextView
         android:layout_width="match_parent"
@@ -18,9 +19,35 @@
         android:layout_margin="10dp"
         android:text="Chose the environment to delete"/>
 
-    <LinearLayout
-        
+
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></LinearLayout>
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/envDeleteRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.RecyclerView>
+
+            <Button
+                android:id="@+id/deleteEnvButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "delete the environment"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </LinearLayout>
