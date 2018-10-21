@@ -24,7 +24,9 @@
         <activity android:name=".CreateEnvActivity" />
         <activity android:name=".BindEndpointsActivity" />
         <activity android:name=".ChangeProfileActivity" />
-        <activity android:name=".DeleteEnvActivity"></activity>
+        <activity android:name=".DeleteEnvActivity" />
+        <activity android:name=".ChangeEnvActivity" />
+        <activity android:name=".CreditsActivity"></activity>
     </application>
 
 </manifest>
