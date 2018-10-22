@@ -26,7 +26,8 @@
         <activity android:name=".ChangeProfileActivity" />
         <activity android:name=".DeleteEnvActivity" />
         <activity android:name=".ChangeEnvActivity" />
-        <activity android:name=".CreditsActivity"></activity>
+        <activity android:name=".CreditsActivity" />
+        <activity android:name=".HowToUseActivity"></activity>
     </application>
 
 </manifest>
