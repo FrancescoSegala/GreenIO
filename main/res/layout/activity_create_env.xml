@@ -19,10 +19,7 @@
 
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+
 
 
         <LinearLayout
@@ -41,6 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:inputType="text"
                 android:hint="name"/>
 
             <TextView
@@ -66,6 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:inputType="text"
                 android:hint="location"/>
             <TextView
                 android:layout_width="match_parent"
@@ -78,6 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:inputType="text"
                 android:hint="Profile name"/>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -122,7 +122,7 @@
 
         </LinearLayout>
 
-    </LinearLayout>
+
 
 </ScrollView>
 

@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Profile Name:"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:layout_margin="5dp"/>
         <EditText
             android:id="@+id/newProfileNameEditText"

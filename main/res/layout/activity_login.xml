@@ -50,7 +50,6 @@
             android:layout_margin="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#00c853"
             android:text="LOGIN" />
 
 
@@ -65,7 +64,7 @@
         <Button
             android:id="@+id/registerLoginButton"
             android:layout_margin="8dp"
-            android:background="#00c853"
+            android:background="@color/colorPrimary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="REGISTER" />
