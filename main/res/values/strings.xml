@@ -18,11 +18,11 @@
 <p>start the Room via the program <em>create_room.py </em>that you can download from <a href="https://github.com/FrancescoSegala/smart-env">https://github.com/FrancescoSegala/smart-env</a> to launch the energy monitornig service in your environment, <strong>and</strong> get the connection <strong>Topic</strong> required later to bind it to your app.</p>
 <p>&nbsp;</p>
 <p><strong>Usage:</strong></p>
-<p>We will define <span style="background-color:#2e7d32;">function</span> as one of the functions accessible from the homepage menu.</p>
-<p>Once yo connected to the room in the&nbsp;<a href="#top">prerequisites</a> the app will show you the energy statistics. So you can log in and <strong>create</strong> an Environment in the <span style="background-color:#2e7d32;">create Env</span> section. Then you use the <strong>Topic</strong> given from the <em>create_room.py</em> and connect to the room.</p>
-<p>After that you have connected the two parts and now all works by itself. You can <span style="text-decoration: underline;">change</span> and <span style="text-decoration: underline;">update</span> the <strong>Profile</strong> as you wish in the <span style="background-color:#2e7d32;">change Profile</span> part. The <strong>Profile</strong> is checked periodically by the server so you can tune the daily profile behavior with your best fit.</p>
-<p>For eac condition <strong>Air</strong>,<strong>Temp</strong>,<strong>Light</strong> you can decide wheter adopt a saving profile policy or not independently one another, while you set your profile.</p>
-<p>Finally you can <strong>delete</strong> your environmets in the <span style="background-color:#2e7d32;">delete Env</span> section, stopping the execution of the stream by deleting it.</p>
+<p>We will define <span style="color:#2e7d32;"><strong>function</strong></span> as one of the functions accessible from the homepage menu.</p>
+<p>Once yo connected to the room in the&nbsp;<a href="#top">prerequisites</a> the app will show you the energy statistics. So you can log in and <strong>create</strong> an Environment in the <span style="color:#2e7d32;"><strong>create Env</strong></span> section. Then you use the <strong>Topic</strong> given from the <em>create_room.py</em> and connect to the room.</p>
+<p>After that you have connected the two parts and now all works by itself. You can <span style="text-decoration: underline;">change</span> and <span style="text-decoration: underline;">update</span> the <strong>Profile</strong> as you wish in the <span style="color:#2e7d32;"><strong>change Profile</strong></span> part. The <strong>Profile</strong> is checked periodically by the server so you can tune the daily profile behavior with your best fit.</p>
+<p>For each condition <strong>Air</strong>,<strong>Temp</strong>,<strong>Light</strong> you can decide wheter adopt a saving profile policy or not independently one another, while you set your profile.</p>
+<p>Finally you can <strong>delete</strong> your environmets in the <span style="color:#2e7d32;"><strong>delete Env</strong></span> section, stopping the execution of the stream by deleting it.</p>
   ]]></string>
 
 
