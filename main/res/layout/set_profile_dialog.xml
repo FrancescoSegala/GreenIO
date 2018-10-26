@@ -22,12 +22,10 @@
             android:layout_height="wrap_content"
             android:text="air "
             android:checked="true"
-            android:layout_marginVertical="5dp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
             android:paddingLeft="17dp"
             android:text="check this to enable the saving mode for air"/>
     </LinearLayout>
